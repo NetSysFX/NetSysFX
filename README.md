@@ -49,7 +49,7 @@ Estoy abierto a colaborar en proyectos académicos o de comunidad, especialmente
 
 ---
 
-📫 Contacto: `info@netsysfx.com`
+📫 Contacto: `felipe.andrey04@gmail.com`
 🔗 GitHub: [@NetSysFX](https://github.com/NetSysFX)
 🌐 Sitio web (en desarrollo): `www.netsysfx.com`
 
