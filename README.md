@@ -45,7 +45,7 @@ Aplicación web JSP modular tipo tienda online con arquitectura MVC.
 
 ## 🤝 ¿Quieres colaborar?
 
-Estoy abierto a colaborar en proyectos académicos o de comunidad, especialmente si tienen visión real de negocio. También puedes seguirme o escribirme para intercambiar ideas y apoyarnos en este camino tech.
+Estoy abierto a colaborar en proyectos académicos o de comunidad, especialmente si tienen visión real de negocio. También puedes seguirme o escribirme para intercambiar ideas y apoyarnos.
 
 ---
 
