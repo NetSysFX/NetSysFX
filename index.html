@@ -155,13 +155,15 @@
       font-size: 0.9rem;
       color: #c0fefb;
     }
-    .info-sections {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 5rem;
-}
+  .info-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: min(10vh, 120px); /* esto da el espaciado dinámico */
+  }
+
 
     .about p {
       margin: 0.8rem 0;
