@@ -53,9 +53,7 @@ Estoy abierto a colaborar en proyectos académicos o de comunidad, especialmente
 🔗 GitHub: [@NetSysFX](https://github.com/NetSysFX)
 🌐 Sitio web (en desarrollo): `www.netsysfx.com`
 
----
 
-> "Un buen sistema no nace por casualidad. Se planifica, se construye con propósito y se ajusta con inteligencia."
 
 ---
 
