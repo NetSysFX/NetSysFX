@@ -38,11 +38,24 @@
       cursor: pointer;
       text-decoration: none;
       transition: all 0.3s ease;
+      animation: pulseGlow 2s infinite;
+      box-shadow: 0 0 10px #00ffe1;
     }
     .btn:hover {
       background-color: #0f0f0f;
       color: #00ffe1;
       border: 1px solid #00ffe1;
+    }
+    @keyframes pulseGlow {
+      0% {
+        box-shadow: 0 0 10px #00ffe1;
+      }
+      50% {
+        box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1;
+      }
+      100% {
+        box-shadow: 0 0 10px #00ffe1;
+      }
     }
     .logo {
       font-size: 4rem;
@@ -73,4 +86,5 @@
   </footer>
 </body>
 </html>
+
 
