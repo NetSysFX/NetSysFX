@@ -124,14 +124,18 @@
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
+
     .info-sections {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
-      margin-top: 5rem;
-      margin-bottom: min(10vh, 120px); /* esto da el espaciado dinámico */
-    }
+      gap: 3rem;
+      margin-top: 4rem;
+      margin-bottom: 6rem; /* más espacio visual con el footer */
+      max-width: 980px;     /* límite visual para que no se expandan tanto */
+      width: 100%;
+}
+
 
 }
     .services, .about {
