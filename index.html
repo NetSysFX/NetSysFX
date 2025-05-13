@@ -19,6 +19,46 @@
       text-align: center;
       padding-top: 60px;
     }
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #0f0f0f;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 0 10px #00ffe1;
+      z-index: 1000;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropbtn {
+      background-color: transparent;
+      border: none;
+      color: #00ffe1;
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #1a1a1a;
+      min-width: 320px;
+      box-shadow: 0 0 10px #00ffe1;
+      padding: 1rem;
+      z-index: 1;
+      text-align: left;
+      font-size: 0.9rem;
+      color: #c0fefb;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
     h1 {
       font-size: 3.5rem;
       margin-bottom: 0.5rem;
@@ -86,18 +126,6 @@
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
-    .about {
-      margin-top: 4rem;
-      padding: 0 2rem;
-      max-width: 800px;
-      line-height: 1.6;
-    }
-    .about h2 {
-      font-size: 1.6rem;
-      margin-bottom: 1.2rem;
-      color: #00ffe1;
-      text-shadow: 0 0 10px #00ffe1;
-    }
     footer {
       margin-top: auto;
       font-size: 0.9rem;
@@ -107,26 +135,28 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="dropdown">
+      <button class="dropbtn">Sobre Nosotros</button>
+      <div class="dropdown-content">
+        <p><strong>NetSysFX</strong> nació del código, la visión y el poder de la IA. Somos una iniciativa creada por profesionales con más de una década de experiencia en tecnología, infraestructura y sistemas distribuidos.</p>
+        <p>Nuestra misión es construir soluciones digitales autosuficientes, accesibles y con inteligencia real para pequeños negocios que quieren crecer sin depender de herramientas complejas ni costosas.</p>
+        <p>Creemos que el futuro no lo dominan las grandes corporaciones, sino los visionarios que se atreven a construir con propósito. Por eso, NetSysFX es más que un software: es un movimiento.</p>
+      </div>
+    </div>
+  </nav>
+
   <div class="logo">🚀</div>
   <h1>NetSysFX</h1>
   <p>Soluciones tecnológicas autónomas para un mundo en evolución.</p>
   <a href="https://github.com/NetSysFX" target="_blank" class="btn">Ver proyectos en GitHub</a>
-
-  <div class="about">
-    <h2>Sobre Nosotros</h2>
-    <p>
-      NetSysFX nació del código, la visión y el poder de la IA. Somos una iniciativa creada por profesionales con más de una década de experiencia en tecnología, infraestructura y sistemas distribuidos. Nuestra misión es construir soluciones digitales autosuficientes, accesibles y con inteligencia real para pequeños negocios que quieren crecer sin depender de herramientas complejas ni costosas.
-    </p>
-    <p>
-      Creemos que el futuro no lo dominan las grandes corporaciones, sino los visionarios que se atreven a construir con propósito. Por eso, NetSysFX es más que un software: es un movimiento.
-    </p>
-  </div>
 
   <footer>
     &copy; 2025 NetSysFX. Todos los derechos reservados.
   </footer>
 </body>
 </html>
+
 
 
 
