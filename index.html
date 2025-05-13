@@ -41,6 +41,11 @@
     .dropdown {
       position: relative;
       display: inline-block;
+      transition: all 0.3s ease-in-out;
+    }
+    .dropdown:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
     }
     .dropbtn {
       background-color: transparent;
@@ -50,6 +55,7 @@
       cursor: pointer;
       padding: 0.5rem 1rem;
       font-family: 'Orbitron', sans-serif;
+      transition: all 0.3s ease-in-out;
     }
     .dropdown-content {
       display: none;
@@ -220,3 +226,4 @@
   </footer>
 </body>
 </html>
+
