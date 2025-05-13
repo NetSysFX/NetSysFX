@@ -33,15 +33,9 @@
       animation: pulseLine 2s infinite;
     }
     @keyframes pulseLine {
-      0% {
-        box-shadow: 0 0 10px #00ffe1;
-      }
-      50% {
-        box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1;
-      }
-      100% {
-        box-shadow: 0 0 10px #00ffe1;
-      }
+      0% { box-shadow: 0 0 10px #00ffe1; }
+      50% { box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1; }
+      100% { box-shadow: 0 0 10px #00ffe1; }
     }
     .dropdown {
       position: relative;
@@ -78,18 +72,9 @@
       opacity: 0;
     }
     @keyframes glowFade {
-      0% {
-        opacity: 0;
-        text-shadow: none;
-      }
-      50% {
-        opacity: 1;
-        text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1;
-      }
-      100% {
-        opacity: 1;
-        text-shadow: 0 0 5px #00ffe1;
-      }
+      0% { opacity: 0; text-shadow: none; }
+      50% { opacity: 1; text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1; }
+      100% { opacity: 1; text-shadow: 0 0 5px #00ffe1; }
     }
     p {
       font-size: 1.2rem;
@@ -117,19 +102,13 @@
       border: 1px solid #00ffe1;
     }
     @keyframes pulseGlow {
-      0% {
-        box-shadow: 0 0 10px #00ffe1;
-      }
-      50% {
-        box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1;
-      }
-      100% {
-        box-shadow: 0 0 10px #00ffe1;
-      }
+      0% { box-shadow: 0 0 10px #00ffe1; }
+      50% { box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1; }
+      100% { box-shadow: 0 0 10px #00ffe1; }
     }
     .logo {
       font-size: 4rem;
-      margin: 16rem 0 1rem;
+      margin: 10rem 0 1rem;
       filter: drop-shadow(0 0 10px #00ffe1);
       animation: float 2s ease-in-out infinite;
     }
@@ -138,14 +117,14 @@
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
-    .services {
+    .services, .about {
       margin-top: 3rem;
       padding: 2rem;
       border: 1px solid #00ffe1;
       box-shadow: 0 0 10px #00ffe1;
       max-width: 700px;
     }
-    .services h2 {
+    .services h2, .about h2 {
       margin-bottom: 1rem;
       font-size: 2rem;
       color: #00ffe1;
@@ -157,6 +136,10 @@
     .services li {
       margin: 0.5rem 0;
       font-size: 1rem;
+      color: #c0fefb;
+    }
+    .about p {
+      margin: 1rem 0;
       color: #c0fefb;
     }
     footer {
@@ -181,11 +164,11 @@
       <button class="dropbtn">Servicios</button>
       <div class="dropdown-content">
         <ul>
-          <li>🔧 Consultoría en infraestructura y sistemas distribuidos</li>
-          <li>☁️ Implementación de soluciones en la nube (AWS, Hetzner)</li>
-          <li>🧠 Integración de IA para automatización y soporte</li>
-          <li>🧾 Desarrollo de aplicaciones POS para pequeños negocios</li>
-          <li>🔐 Seguridad, respaldo y monitoreo de entornos críticos</li>
+          <li>Consultoría en infraestructura y sistemas distribuidos</li>
+          <li>Implementación de soluciones en la nube (AWS, Hetzner)</li>
+          <li>Integración de IA para automatización y soporte</li>
+          <li>Desarrollo de aplicaciones POS para pequeños negocios</li>
+          <li>Seguridad, respaldo y monitoreo de entornos críticos</li>
         </ul>
       </div>
     </div>
@@ -196,14 +179,21 @@
   <p>Soluciones tecnológicas autónomas para un mundo en evolución.</p>
   <a href="https://github.com/NetSysFX" target="_blank" class="btn">Ver proyectos en GitHub</a>
 
+  <section class="about">
+    <h2>Sobre Nosotros</h2>
+    <p><strong>NetSysFX</strong> nació del código, la visión y el poder de la IA. Somos una iniciativa creada por profesionales con más de una década de experiencia en tecnología, infraestructura y sistemas distribuidos.</p>
+    <p>Nuestra misión es construir soluciones digitales autosuficientes, accesibles y con inteligencia real para pequeños negocios que quieren crecer sin depender de herramientas complejas ni costosas.</p>
+    <p>Creemos que el futuro no lo dominan las grandes corporaciones, sino los visionarios que se atreven a construir con propósito. Por eso, NetSysFX es más que un software: es un movimiento.</p>
+  </section>
+
   <section class="services">
     <h2>Servicios</h2>
     <ul>
-      <li>🔧 Consultoría en infraestructura y sistemas distribuidos</li>
-      <li>☁️ Implementación de soluciones en la nube (AWS, Hetzner)</li>
-      <li>🧠 Integración de IA para automatización y soporte</li>
-      <li>🧾 Desarrollo de aplicaciones POS para pequeños negocios</li>
-      <li>🔐 Seguridad, respaldo y monitoreo de entornos críticos</li>
+      <li>Consultoría en infraestructura y sistemas distribuidos</li>
+      <li>Implementación de soluciones en la nube (AWS, Hetzner)</li>
+      <li>Integración de IA para automatización y soporte</li>
+      <li>Desarrollo de aplicaciones POS para pequeños negocios</li>
+      <li>Seguridad, respaldo y monitoreo de entornos críticos</li>
     </ul>
   </section>
 
@@ -212,6 +202,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
