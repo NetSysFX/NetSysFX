@@ -26,8 +26,9 @@
       width: 100%;
       background-color: #0f0f0f;
       display: flex;
-      justify-content: center;
-      padding: 1rem 0;
+      justify-content: flex-start;
+      padding: 1rem 2rem;
+      gap: 1rem;
       box-shadow: 0 0 10px #00ffe1;
       z-index: 1000;
       animation: pulseLine 2s infinite;
@@ -131,6 +132,11 @@
       box-shadow: 0 0 10px #00ffe1;
       max-width: 460px;
       text-align: justify;
+      transition: all 0.3s ease-in-out;
+    }
+    .services:hover, .about:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px #00ffe1, 0 0 30px #00ffe1;
     }
     .services h2, .about h2 {
       margin-bottom: 1rem;
