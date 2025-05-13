@@ -14,9 +14,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
+      justify-content: flex-start;
+      min-height: 100vh;
       text-align: center;
+      padding-top: 60px;
     }
     h1 {
       font-size: 3.5rem;
@@ -42,6 +43,7 @@
       font-size: 1.2rem;
       margin-bottom: 2rem;
       color: #c0fefb;
+      max-width: 600px;
     }
     .btn {
       padding: 0.8rem 2rem;
@@ -84,11 +86,16 @@
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
+    .about {
+      margin-top: 3rem;
+      padding: 1rem;
+      max-width: 800px;
+    }
     footer {
-      position: absolute;
-      bottom: 1rem;
+      margin-top: auto;
       font-size: 0.9rem;
       color: #444;
+      padding: 1rem;
     }
   </style>
 </head>
@@ -97,11 +104,23 @@
   <h1>NetSysFX</h1>
   <p>Soluciones tecnológicas autónomas para un mundo en evolución.</p>
   <a href="https://github.com/NetSysFX" target="_blank" class="btn">Ver proyectos en GitHub</a>
+
+  <div class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      NetSysFX nació del código, la visión y el poder de la IA. Somos una iniciativa creada por profesionales con más de una década de experiencia en tecnología, infraestructura y sistemas distribuidos. Nuestra misión es construir soluciones digitales autosuficientes, accesibles y con inteligencia real para pequeños negocios que quieren crecer sin depender de herramientas complejas ni costosas.
+    </p>
+    <p>
+      Creemos que el futuro no lo dominan las grandes corporaciones, sino los visionarios que se atreven a construir con propósito. Por eso, NetSysFX es más que un software: es un movimiento.
+    </p>
+  </div>
+
   <footer>
     &copy; 2025 NetSysFX. Todos los derechos reservados.
   </footer>
 </body>
 </html>
+
 
 
 
