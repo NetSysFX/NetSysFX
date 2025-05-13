@@ -18,8 +18,7 @@
       min-height: 100vh;
       text-align: center;
       padding-top: 100px;
-      padding-bottom: clamp(80px, 10vh, 140px); /* Espacio extra para que las tarjetas no se peguen al footer */
-    }
+          }
     nav {
       position: fixed;
       top: 0;
@@ -125,13 +124,9 @@
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
-    .info-sections {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 5rem;
-    }
+    
+  margin-bottom: min(10vh, 120px);
+}
     .services, .about {
       flex: 1 1 300px;
       padding: 2rem;
