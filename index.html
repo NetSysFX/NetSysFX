@@ -9,7 +9,7 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       background-color: #ffffff;
-      color: #00ffe1;
+      color: #000000;
       font-family: 'Orbitron', sans-serif;
       display: flex;
       flex-direction: column;
@@ -70,7 +70,6 @@
       font-size: 0.9rem;
       color: #c0fefb;
     }
-
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -91,20 +90,10 @@
       50% { opacity: 1; text-shadow: 0 0 10px #00ffe1, 0 0 20px #00ffe1; }
       100% { opacity: 1; text-shadow: 0 0 5px #00ffe1; }
     }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
+    p, .about p, .services li {
+      font-size: 1rem;
       color: #000;
-      max-width: 600px;
     }
-    .claro {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      color: #ffffff;
-      max-width: 600px;
-    }
-
-    
     .btn {
       padding: 0.8rem 2rem;
       background-color: #00ffe1;
@@ -158,7 +147,7 @@
       box-shadow: 0 0 10px #00ffe1;
       text-align: justify;
       transition: all 0.3s ease-in-out;
-      color: #000;
+      background-color: #ffffff;
     }
     .services:hover, .about:hover {
       transform: translateY(-5px);
@@ -167,16 +156,6 @@
     .services ul {
       list-style-type: disc;
       padding-left: 1.5rem;
-    }
-    .services li {
-      margin: 0.4rem 0;
-      font-size: 0.9rem;
-      color: #000;
-    }
-    .about p {
-      margin: 0.8rem 0;
-      color: #000;
-      font-size: 0.9rem;
     }
     .contacto {
       max-width: 600px;
