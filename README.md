@@ -1,8 +1,3 @@
-# 👨‍💻 Andrés Felipe Paniagua Villada
-
-## Fundador y CEO de NetSysFX
-
-🎓 *Estudiante de Ingeniería Informática*
 🌍 *Medellín, Colombia*
 🚀 *Apasionado por la tecnología, el diseño limpio y las soluciones reales de software*
 
